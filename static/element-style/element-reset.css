@@ -1,0 +1,40 @@
+/* element-ui 自定义样式，请在样式前添加.tw- 前缀 */
+
+/* el-dialog 组件样式style */
+.tw-dialog-one {}
+
+.tw-dialog-one .el-dialog__header {
+  display: none;
+}
+
+.tw-dialog-one .el-dialog__body {
+  padding: 0;
+}
+
+/* el-button 按钮样式 */
+.tw-button-one {
+  height: 48px;
+  width: 100%;
+}
+
+/* tw-input 输入框 无边框 */
+.tw-input-one .el-input__inner,
+.tw-input-one .el-input-group__append {
+  background-color: #f9f9f9;
+  border: none;
+  border-radius: 0px;
+  height: 48px;
+}
+
+.tw-input-one .el-input__inner::placeholder {
+  color: #666;
+}
+
+.tw-input-one .el-input-group__append {
+  padding: 0px;
+}
+
+/* tw-form-item */
+.tw-form-item {
+  margin-bottom: 10px;
+}

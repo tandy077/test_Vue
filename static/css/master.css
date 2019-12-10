@@ -1,0 +1,122 @@
+/* .iframe_laout 页面布局样式 */
+html,
+body,
+div#app,
+.iframe_layout,
+.iframe_layout .iframe_container,
+.iframe_layout .iframe_container .iframe_main {
+  height: 100%;
+}
+
+div#app {
+  background-color: #efefef;
+  min-width: 1200px;
+  min-height: 500px;
+}
+
+.iframe_layout {
+  position: relative;
+  padding-top: 60px;
+  box-sizing: border-box;
+}
+
+.iframe_layout .iframe_header {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-bottom: 1px #dfdfdf solid;
+}
+
+.iframe_layout .iframe_container {
+  position: relative;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  z-index: 1;
+}
+
+.iframe_layout .iframe_container .iframe_aside {}
+
+.iframe_layout .iframe_container .iframe_main {
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+.iframe_layout .iframe_container .iframe_main .iframe_main_scroll {
+  height: 100%;
+  background-color: #fff;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.iframe_layout .iframe_container .iframe_main .iframe_main_content {
+  position: relative;
+  box-sizing: border-box;
+  min-height: 100%;
+  padding-bottom: 350px;
+}
+
+.iframe_layout .iframe_container .iframe_footer {
+  height: 350px;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  bottom: 0;
+}
+
+/* .iframe_laout 页面布局样式 END******************************/
+
+/* main.css 主要样式 */
+.wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* logo */
+.logo {
+  width: 102px;
+  height: 26px;
+  background-image: url("../images/logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+/* 白色logo */
+.logo-white {
+  height: 42px;
+  width: 164px;
+  background-image: url("../images/logo-white.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+/* slgon 便宜好房尽在太屋 */
+.logo-slogn {
+  height: 34px;
+  width: 270px;
+  background-image: url("../images/slogn.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+/* 修改成功 success */
+.login-success {
+  height: 124px;
+  width: 124px;
+  background-image: url("../images/login/success.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+/* 隐影 */
+.box-shadow-bottom {
+  box-shadow: 0px 5px 10px #e4e4e4;
+}
